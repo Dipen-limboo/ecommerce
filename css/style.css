@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    /* height: 10vh;
+    width: 100%; */
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    background-color: #f5e0df;
+    height: 10vh;
+}
+
+.logo {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+.logo:hover{
+    font-size: 20px;
+    transition: 0.5s ease-out;
+}
+
+.logo h1 span{
+    color: #f9004d;
+}
+
+nav{
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0 15px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover{
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    border: 2px solid #f9004d;
+    transition: 0.5s ease;
+}
+
+
+.Home{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f5b7b3;
+}
+
+
+.left1{
+    width: 50%;
+    margin-top: 130px;
+}
+.left1 h2 {
+    font-size: 50px;
+}
+
+.left1 h4{
+    color: #f9004d;
+    font-size: 25px;
+}
+.left1 h3{
+    font-size: 45px;
+}
+
+.left1 button{
+    color: white;
+    background-color: #f9004d;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.5s;
+}
+.left1 button:hover {
+    color: #f9004d;
+    background-color: #f5b7b3;
+    border: 2px solid #f9004d;
+    font-size: 20px;
+}
+.right1{
+    height: 50vh;
+    width: 50%;
+}
+
+.right1 h2{
+    border:2px solid transparent;
+    border-radius: 5px;
+    width: 250px;
+    justify-content: center;
+    margin-left: 180px;
+}
+.right1 h2:hover{
+    font-size: 27px;
+    transition: 0.5s ease-in;
+}
+
+.right1 img{
+    height: 300px;
+    margin: 50px;
+    border-radius: 15px;
+}
+.right1 img:hover{
+    height: 350px;
+    transition: 1s ease-in;
+}
+
+.about{
+    height: 100vh;
+}
